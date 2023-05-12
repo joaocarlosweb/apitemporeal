@@ -5,7 +5,7 @@ function dadosNaTela(dados){
     document.querySelector(".texto-previsao").innerHTML=dados.weather[0].description
     document.querySelector(".humidade").innerHTML= "Humidade "+dados.main.humidity+"%"
     document.querySelector(".inco-previsao").src=`https://openweathermap.org/img/wn/${dados.weather[0].icon}.png`
-    document.querySelector(".grau").innerHTML=dados.wind.deg+ " graus"
+    document.querySelector(".grau").innerHTML= dados.main.sea_level+ " Nível do mar"
     
 
     console.log(dados);
@@ -21,6 +21,6 @@ async function buscar(cidade){
 const key="bbf6bb38e43d1b6e8aea5ff4025e1663"
 function cliquei(){
    const cidade= document.querySelector(".cidade").value;
-   
+
     buscar(cidade);
 }
