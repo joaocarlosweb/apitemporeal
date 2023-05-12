@@ -11,7 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: antiquewhite;
-    background-image: url("https://images.unsplash.com/photo-1515612148533-6247582c12c7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY4Mzg5NzUyMw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-image: url("https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbUJoeHpGSFlkSV83a3hLblZoalBVYjlTVXViZ3xBQ3Jtc0ttNVB6dU8zNDJYTUdtNk94RUZVelZXMmRFSE9BWS0xaUw5RlR1S3JSTE1QUUpvU0ROMUlMcEtoZjd0Smc4dG9EbGxOQ1RVSzVTODdicks5Umc2M2VBXzRvNmk1LVdZNkRkZFBwWVk2Z3lISENXY1FCZw&q=https%3A%2F%2Fsource.unsplash.com%2F1600x900%2F%3Flandscape&v=qxzqEuAOYZ4");
 }
 .caixa-g{
     padding: 20px;
@@ -30,7 +30,7 @@ body{
     padding: 10px;
     border-radius:25px;
     font-size: 18px;
-    color: white;
+    color: rgb(239, 235, 235);
     background-color: #302f2fca;
     width:84%;
 }
