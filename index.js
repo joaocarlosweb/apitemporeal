@@ -5,7 +5,7 @@ function dadosNaTela(dados){
     document.querySelector(".texto-previsao").innerHTML=dados.weather[0].description
     document.querySelector(".humidade").innerHTML= "Humidade "+dados.main.humidity+"%"
     document.querySelector(".inco-previsao").src=`https://openweathermap.org/img/wn/${dados.weather[0].icon}.png`
-    document.querySelector(".grau").innerHTML=dados.wind.deg+ " graus acima do mar"
+    document.querySelector(".grau").innerHTML=dados.wind.deg+ " graus"
     
 
     console.log(dados);
